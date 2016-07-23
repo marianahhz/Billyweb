@@ -10,7 +10,7 @@ angular.module('app', ['ngComponentRouter','ui.materialize', 'app.components'])
 
 .component('app', {
   template:
-    '<nav-bar ></nav-bar><ng-outlet></ng-outlet>',
+    '<ng-outlet></ng-outlet>',
   $routeConfig: [
     {path: '/', name: 'Home', component: 'landing',useAsDefault: true},
     {path: '/hola/', name: 'Hola', component: 'hola'}

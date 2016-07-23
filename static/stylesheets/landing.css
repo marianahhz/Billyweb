@@ -1,0 +1,29 @@
+.texto {
+    padding-top: 35%;
+    font-family: Hero;
+    font-size: 25px;
+    color: #495256;
+}
+
+.texto-descarga {
+    font-family: Hero;
+    font-size: 25px;
+    color: #495256;
+    padding-top: 10%;
+}
+
+.redes-sociales {
+    padding: 1%;
+}
+
+@font-face {
+    font-family: Hero;
+    src: url(../static/Hero.otf);
+}
+
+/*
+div {
+    font-family: myFirstFont;
+}
+Try it Yourself »
+*/
